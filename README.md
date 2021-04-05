@@ -1,10 +1,18 @@
 # fof-angular-core
 
+Part of the Demo project for a Full-Stack TypeScript App published on Azure 
+ - Angular PWA with Azure blob storage (this repo)
+ - NestJs serverless with Azure function
+  
+This repo is a how to project to build and publish the Angular app. 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
 
 ## wiki
 
-- [How to publish your angular app from Github to Azure blob storage](./docs/azure-publish.md)
+- [ ] Create an Angular app and push the source code into github
+- [X] [How to publish your angular app from Github to Azure blob storage](./docs/azure-publish.md)
+- [ ] Secure the app with Azure B2C
 
 ## Run the app
 
