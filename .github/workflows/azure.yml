@@ -22,7 +22,7 @@ jobs:
     - name: Build app
       shell: bash
       run: |        
-        npm run build --prod
+        npm run build
 #     - name: Test app
 #       shell: bash
 #       run: |        
