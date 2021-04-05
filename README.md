@@ -1,4 +1,4 @@
-# FofAngularCore
+# fof-angular-core
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
 
@@ -9,8 +9,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Run the app
 
 ```bash
-# A la racine de l'app
-# [Dev] Execute le frontend en watch mode (rebuild auto sur code change)
+# At the root
+# Dev with watch mode 
 $ npm start
 
 # Code scaffolding. You can use `ng generate directive|pipe|service|class|guard|interface|enum|
