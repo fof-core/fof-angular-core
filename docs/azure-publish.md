@@ -90,7 +90,17 @@ Go to your angular repo and select `Actions`
 ````yaml
 name: Publish Static Web App to Azure Blob Storage
 
-on: push
+on:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - '**.md'
+      - 'docs/**'
+  pull_request:
+    paths-ignore:
+      - '**.md'
+      - 'docs/**'
 
 jobs:
   build_and_publish:
